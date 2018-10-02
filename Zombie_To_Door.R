@@ -38,11 +38,6 @@
 		###loop to update plot with new positions of zombies
 			for (i in 1:length(zx))
 				{
-					#points(75,100,pch=16,col='white',cex=4)
-					#points(zx,zy,col='white')
-					# lines(c(60,60),c(40,70))
-					
-                                        #lines(c(60,60),c(75,120))
 					###here is the logic to deal with the wall
 					if(zx[i] <= 60 & zy[i] >= 75){
 					zx[i]=zx[i]+zs[i]
