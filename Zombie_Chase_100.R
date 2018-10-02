@@ -1,7 +1,8 @@
 #Like the previous model, the real power comes in the fact that we can run
 #this many times to get an idea of what our player is doing! Lets run this
-#model 100 times and keep track of each path that the player usesLx=list()
+#model 100 times and keep track of each path that the player uses
 
+Lx=list()
 Ly=list()
 for (j in 1:100)
 {
